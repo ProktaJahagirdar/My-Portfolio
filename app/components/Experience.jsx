@@ -7,14 +7,16 @@ const Experience = () => {
         <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }} // ✅ only animate once
             id="experience"
             className="w-full px-[12%] py-10 scroll-mt-20 mb-20"
         >
             <motion.h2
                 initial={{ y: -20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.6, delay: 0.5 }}
+                transition={{ duration: 0.4, delay: 0.2 }}
+                viewport={{ once: true }} // ✅ only animate once
                 className="text-center text-5xl font-Ovo"
             >
                 Experience
@@ -32,7 +34,8 @@ const Experience = () => {
                             key={index}
                             initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.6, delay: 0.3 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}
+                            viewport={{ once: true }} // ✅ only animate once
                             className={`relative flex items-center ${index % 2 === 0 ? "justify-start" : "justify-end"}`}
                         >
                             {/* Timeline Dot */}
@@ -68,4 +71,3 @@ const Experience = () => {
 }
 
 export default Experience
-
