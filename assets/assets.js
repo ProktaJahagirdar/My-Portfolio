@@ -112,7 +112,7 @@ export const workData = [
         title: 'Portfolio Website',
         description: 'A personal portfolio website showcasing my development projects, skills, and achievements, serving as an online resume and platform for collaboration.',
         bgImage: '/project5.png',
-        githubLink: 'https://github.com/ProktaJahagirdar/Task-Management-System',
+        githubLink: 'https://github.com/ProktaJahagirdar/My-Portfolio',
     },
 ]
 
