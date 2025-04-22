@@ -37,7 +37,7 @@ const Header = () => {
         viewport={{ once: true }} // ✅ animate once
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'
       >
-        Full Stack Developer
+        Software Developer
       </motion.h1>
 
       {/* Description Animation */}
