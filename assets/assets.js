@@ -103,6 +103,12 @@ export const workData = [
         githubLink: 'https://github.com/ProktaJahagirdar/Fashion-Clothes-Shopping-Database-Management-System',
     },
     {
+        title: 'RecipeFit',
+        description: 'RecipeFit is a mobile app that helps users discover personalized recipes based on their dietary preferences, providing detailed nutritional information. It allows users to search, save favorites, and customize their meal plans with ease.',
+        bgImage: '/project6.png',
+        githubLink: 'https://github.com/ProktaJahagirdar/RecipeFit',
+    },
+    {
         title: 'Portfolio Website',
         description: 'A personal portfolio website showcasing my development projects, skills, and achievements, serving as an online resume and platform for collaboration.',
         bgImage: '/project5.png',
